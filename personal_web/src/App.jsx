@@ -11,7 +11,7 @@ function App() {
   const [data, setdata] = useState(null)
 
   useEffect(()=>{
-    fetch("../public/data.json").then((Response)=>Response.json()).then((json)=>setdata(json));
+    fetch("../data.json").then((Response)=>Response.json()).then((json)=>setdata(json));
   },[]);
 
   if(!data) return <div>Loading..</div>
