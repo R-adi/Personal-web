@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import Hobbies from './components/Hobbies'
 import Passion from './components/Passion'
 import Academic from './components/Academic'
-import profile from "../public/m_patient.jpg"
+import profile from "./m_patient.jpg"
 
 function App() {
   const [data, setdata] = useState(null)
