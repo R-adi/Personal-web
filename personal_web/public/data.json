@@ -1,7 +1,7 @@
 {
-    "about":"",
-    "passion":"",
-   "hobbies":"",
-   "academic":"",
-   "skills":""
+    "about":"Hello,My name is Aditya. I am from Pune",
+    "passion":"Exploring New technologies",
+   "hobbies":["Reading","Singing"],
+   "academic":"PVG COET, PUNE(Computer Engineer)",
+   "skills":["React","Node","C++"]
 }

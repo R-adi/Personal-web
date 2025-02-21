@@ -18,19 +18,19 @@ function App() {
 
   return (
     <>
-    <div>
-      <div>
-        <div>
-          <img src={profile} alt="profile" />
+    <div className='bg-gray-900 text-white min-h-screen flex flex-col items-center'>
+      <div className='flex flex-col items-center w-full max-w-4xl'>
+        <div className='w-1/2 flex justify-center mb-4 '>
+          <img src={profile} className='w-65 h-65 rounded-full shadow-lg border-4 ' alt="profile" />
         </div>
-        <div>
+        <div className='w-1/2'>
           <About about={data.about}></About>
         </div>
       </div>
 
       <Skills skills={data.skills}></Skills>
       <Hobbies hobbies={data.hobbies}></Hobbies>
-      <Passion passion={data.Passion }></Passion>
+      <Passion passion={data.passion }></Passion>
       <Academic academic={data.academic}></Academic>
 
     </div>
